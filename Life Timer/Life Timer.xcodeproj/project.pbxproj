@@ -15,6 +15,7 @@
 		886269031E04B16200D0745D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886269011E04B16200D0745D /* LaunchScreen.storyboard */; };
 		8862690E1E04B16200D0745D /* Life_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8862690D1E04B16200D0745D /* Life_TimerTests.swift */; };
 		886269191E04B16200D0745D /* Life_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886269181E04B16200D0745D /* Life_TimerUITests.swift */; };
+		88B6F2CD1E134B6100A5EC91 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B6F2CC1E134B6000A5EC91 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		886269141E04B16200D0745D /* Life TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		886269181E04B16200D0745D /* Life_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_TimerUITests.swift; sourceTree = "<group>"; };
 		8862691A1E04B16200D0745D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B6F2CC1E134B6000A5EC91 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				886268F61E04B16200D0745D /* AppDelegate.swift */,
 				886268F81E04B16200D0745D /* an .swift */,
 				886268FA1E04B16200D0745D /* SecondViewController.swift */,
+				88B6F2CC1E134B6000A5EC91 /* RatingControl.swift */,
 				886268FC1E04B16200D0745D /* Main.storyboard */,
 				886268FF1E04B16200D0745D /* Assets.xcassets */,
 				886269011E04B16200D0745D /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B6F2CD1E134B6100A5EC91 /* RatingControl.swift in Sources */,
 				886268FB1E04B16200D0745D /* SecondViewController.swift in Sources */,
 				886268F71E04B16200D0745D /* AppDelegate.swift in Sources */,
 				886268F91E04B16200D0745D /* an .swift in Sources */,

@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1e8-VG-B5H">
-                                <rect key="frame" x="16" y="40" width="343" height="424.5"/>
+                                <rect key="frame" x="16" y="40" width="343" height="476.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFs-eo-Wtl">
                                         <rect key="frame" x="0.0" y="0.0" width="91" height="20.5"/>
@@ -55,6 +55,17 @@
                                             <outletCollection property="gestureRecognizers" destination="vv9-yK-wTf" appends="YES" id="GxA-AG-KeH"/>
                                         </connections>
                                     </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GlZ-J0-Q4s" customClass="RatingControl" customModule="Life_Timer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="432.5" width="252" height="44"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="starSize">
+                                                <size key="value" width="44" height="44"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="starCount">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="afw-Pf-zdt" secondAttribute="trailing" id="D7b-PT-IuK"/>
