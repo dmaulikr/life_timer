@@ -10,6 +10,11 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    //MARK: Properties
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +24,14 @@ class SecondViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
+    //MARK: Actions
+    
+    //When the user chooses to add another timer to the list of timers
+    @IBAction func AddTimerButtonPressed(_ sender: UIBarButtonItem) {
+        
+    }
+    
+    
 }
-
