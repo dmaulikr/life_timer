@@ -19,6 +19,7 @@
 		88B6F2CF1E16BDA300A5EC91 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B6F2CE1E16BDA300A5EC91 /* Timer.swift */; };
 		88B6F2D11E16C02900A5EC91 /* dateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B6F2D01E16C02900A5EC91 /* dateTime.swift */; };
 		88B6F2D31E16C24900A5EC91 /* timerColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B6F2D21E16C24900A5EC91 /* timerColor.swift */; };
+		88B6F2D51E16FDAC00A5EC91 /* createTimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B6F2D41E16FDAC00A5EC91 /* createTimerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		88B6F2CE1E16BDA300A5EC91 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		88B6F2D01E16C02900A5EC91 /* dateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dateTime.swift; sourceTree = "<group>"; };
 		88B6F2D21E16C24900A5EC91 /* timerColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timerColor.swift; sourceTree = "<group>"; };
+		88B6F2D41E16FDAC00A5EC91 /* createTimerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createTimerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				88B6F2D21E16C24900A5EC91 /* timerColor.swift */,
 				88B6F2D01E16C02900A5EC91 /* dateTime.swift */,
 				886268FC1E04B16200D0745D /* Main.storyboard */,
+				88B6F2D41E16FDAC00A5EC91 /* createTimerController.swift */,
 				886268FF1E04B16200D0745D /* Assets.xcassets */,
 				886269011E04B16200D0745D /* LaunchScreen.storyboard */,
 				886269041E04B16200D0745D /* Info.plist */,
@@ -283,6 +286,7 @@
 				88B6F2CF1E16BDA300A5EC91 /* Timer.swift in Sources */,
 				886268F91E04B16200D0745D /* FirstViewController.swift in Sources */,
 				88B6F2D31E16C24900A5EC91 /* timerColor.swift in Sources */,
+				88B6F2D51E16FDAC00A5EC91 /* createTimerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
