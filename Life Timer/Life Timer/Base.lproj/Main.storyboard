@@ -198,7 +198,7 @@
                                     <navigationItem title="Life Timer" id="OYt-ff-aCm">
                                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="SB6-e8-CAh">
                                             <connections>
-                                                <segue destination="49e-Tb-3d3" kind="show" id="Lt1-Jv-U7q"/>
+                                                <action selector="cancelButtonPressed:" destination="0uX-pq-9ID" id="qvS-qG-xMu"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="ick-bZ-kNV">

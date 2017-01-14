@@ -90,11 +90,16 @@ class createTimerController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     @IBAction func doneButtonPressed(_ sender: UIBarButtonItem) {
         //TODO: Create the timer possibly NSTimer and then create a tableView item to display the timer within the second view controller
+        
+        
+        
+        
     }
-    
     @IBAction func cancelButtonPressed(_ sender: UIBarButtonItem) {
-        //TODO: Programmatically show the second view controller view and discard all information collected about this particular timer
+        //Goes back to previous viewController without saving any data
+        self.dismiss(animated: true, completion: nil)
     }
+
     
     
 }
