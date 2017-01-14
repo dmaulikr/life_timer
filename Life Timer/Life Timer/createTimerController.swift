@@ -17,6 +17,8 @@ class createTimerController: UIViewController, UIPickerViewDataSource, UIPickerV
     @IBOutlet weak var colorPicker: UIPickerView!
     let colorPickerData = ["Black", "Dark Gray", "Gray", "Light Gray", "Brown", "Red", "Orange", "Yellow", "Green", "Cyan", "Blue", "Magenta", "Purple", "White"]
     var timer: Timer!
+    var counter = 0
+    var time: Int = 0
     
     //Constructor
     override func viewDidLoad() {
@@ -71,7 +73,10 @@ class createTimerController: UIViewController, UIPickerViewDataSource, UIPickerV
     //MARK: Timer
     
     func calculateCountdown(){
-        
+        for _ in (0...time){
+            counter += 1
+            print(counter)
+        }
     }
     
     
@@ -97,20 +102,13 @@ class createTimerController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     @IBAction func doneButtonPressed(_ sender: UIBarButtonItem) {
         //TODO: Create the timer possibly NSTimer and then create a tableView item to display the timer within the second view controller
-        
         if(dateView.isHidden){
             let countDownPicker: UIDatePicker = countdownView.viewWithTag(1) as! UIDatePicker
-            let time = countDownPicker.countDownDuration
-            timer = Timer.scheduledTimer(TimeInterval: 1.0, target: self, selector: #selector(createTimerController.calculateCountdown), userInfo: nil, repeats: false)
-            
-            
-            var counter = 0
+            time = Int(countDownPicker.countDownDuration)
+            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(createTimerController.calculateCountdown), userInfo: nil, repeats: false)
         }else if(countdownView.isHidden){
             
         }
-        
-        
-        
     }
     
     @IBAction func cancelButtonPressed(_ sender: UIBarButtonItem) {

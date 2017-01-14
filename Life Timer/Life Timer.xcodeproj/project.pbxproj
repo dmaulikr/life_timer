@@ -12,7 +12,7 @@
 		886268F71E04B16200D0745D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886268F61E04B16200D0745D /* AppDelegate.swift */; };
 		886268F91E04B16200D0745D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886268F81E04B16200D0745D /* FirstViewController.swift */; };
 		886268FB1E04B16200D0745D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886268FA1E04B16200D0745D /* SecondViewController.swift */; };
-		886268FE1E04B16200D0745D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886268FC1E04B16200D0745D /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
+		886268FE1E04B16200D0745D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886268FC1E04B16200D0745D /* Main.storyboard */; };
 		886269001E04B16200D0745D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886268FF1E04B16200D0745D /* Assets.xcassets */; };
 		886269031E04B16200D0745D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886269011E04B16200D0745D /* LaunchScreen.storyboard */; };
 		8862690E1E04B16200D0745D /* Life_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8862690D1E04B16200D0745D /* Life_TimerTests.swift */; };
