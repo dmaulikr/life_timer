@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		885398E11E29FC0F002C2FD6 /* datePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885398E01E29FC0F002C2FD6 /* datePicker.swift */; };
+		885398E31E2AA5E2002C2FD6 /* timerViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885398E21E2AA5E2002C2FD6 /* timerViewCellTableViewCell.swift */; };
 		886268F71E04B16200D0745D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886268F61E04B16200D0745D /* AppDelegate.swift */; };
 		886268F91E04B16200D0745D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886268F81E04B16200D0745D /* FirstViewController.swift */; };
 		886268FB1E04B16200D0745D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886268FA1E04B16200D0745D /* SecondViewController.swift */; };
-		886268FE1E04B16200D0745D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886268FC1E04B16200D0745D /* Main.storyboard */; };
+		886268FE1E04B16200D0745D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886268FC1E04B16200D0745D /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
 		886269001E04B16200D0745D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886268FF1E04B16200D0745D /* Assets.xcassets */; };
 		886269031E04B16200D0745D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886269011E04B16200D0745D /* LaunchScreen.storyboard */; };
 		8862690E1E04B16200D0745D /* Life_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8862690D1E04B16200D0745D /* Life_TimerTests.swift */; };
 		886269191E04B16200D0745D /* Life_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886269181E04B16200D0745D /* Life_TimerUITests.swift */; };
 		88B6F2CD1E134B6100A5EC91 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B6F2CC1E134B6000A5EC91 /* RatingControl.swift */; };
-		88B6F2CF1E16BDA300A5EC91 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B6F2CE1E16BDA300A5EC91 /* Timer.swift */; };
 		88B6F2D11E16C02900A5EC91 /* dateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B6F2D01E16C02900A5EC91 /* dateTime.swift */; };
 		88B6F2D31E16C24900A5EC91 /* timerColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B6F2D21E16C24900A5EC91 /* timerColor.swift */; };
 		88B6F2D51E16FDAC00A5EC91 /* createTimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B6F2D41E16FDAC00A5EC91 /* createTimerController.swift */; };
@@ -42,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		885398E01E29FC0F002C2FD6 /* datePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = datePicker.swift; sourceTree = "<group>"; };
+		885398E21E2AA5E2002C2FD6 /* timerViewCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timerViewCellTableViewCell.swift; sourceTree = "<group>"; };
 		886268F31E04B16200D0745D /* Life Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		886268F61E04B16200D0745D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		886268F81E04B16200D0745D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +58,6 @@
 		886269181E04B16200D0745D /* Life_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_TimerUITests.swift; sourceTree = "<group>"; };
 		8862691A1E04B16200D0745D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88B6F2CC1E134B6000A5EC91 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
-		88B6F2CE1E16BDA300A5EC91 /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		88B6F2D01E16C02900A5EC91 /* dateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dateTime.swift; sourceTree = "<group>"; };
 		88B6F2D21E16C24900A5EC91 /* timerColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timerColor.swift; sourceTree = "<group>"; };
 		88B6F2D41E16FDAC00A5EC91 /* createTimerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createTimerController.swift; sourceTree = "<group>"; };
@@ -91,6 +91,7 @@
 		886268EA1E04B16200D0745D = {
 			isa = PBXGroup;
 			children = (
+				885398E21E2AA5E2002C2FD6 /* timerViewCellTableViewCell.swift */,
 				886268F51E04B16200D0745D /* Life Timer */,
 				8862690C1E04B16200D0745D /* Life TimerTests */,
 				886269171E04B16200D0745D /* Life TimerUITests */,
@@ -115,7 +116,6 @@
 				886268F81E04B16200D0745D /* FirstViewController.swift */,
 				886268FA1E04B16200D0745D /* SecondViewController.swift */,
 				88B6F2CC1E134B6000A5EC91 /* RatingControl.swift */,
-				88B6F2CE1E16BDA300A5EC91 /* Timer.swift */,
 				88B6F2D21E16C24900A5EC91 /* timerColor.swift */,
 				88B6F2D01E16C02900A5EC91 /* dateTime.swift */,
 				886268FC1E04B16200D0745D /* Main.storyboard */,
@@ -208,6 +208,9 @@
 		886268EB1E04B16200D0745D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = kvanland;
@@ -288,9 +291,9 @@
 				886268FB1E04B16200D0745D /* SecondViewController.swift in Sources */,
 				885398E11E29FC0F002C2FD6 /* datePicker.swift in Sources */,
 				886268F71E04B16200D0745D /* AppDelegate.swift in Sources */,
-				88B6F2CF1E16BDA300A5EC91 /* Timer.swift in Sources */,
 				886268F91E04B16200D0745D /* FirstViewController.swift in Sources */,
 				88B6F2D31E16C24900A5EC91 /* timerColor.swift in Sources */,
+				885398E31E2AA5E2002C2FD6 /* timerViewCellTableViewCell.swift in Sources */,
 				88B6F2D51E16FDAC00A5EC91 /* createTimerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

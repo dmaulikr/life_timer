@@ -16,6 +16,7 @@ class createTimerController: UIViewController, UIPickerViewDataSource, UIPickerV
     @IBOutlet weak var countdownView: UIView!
     @IBOutlet weak var colorPicker: UIPickerView!
     let colorPickerData = ["Black", "Dark Gray", "Gray", "Light Gray", "Brown", "Red", "Orange", "Yellow", "Green", "Cyan", "Blue", "Magenta", "Purple", "White"]
+    var timer: Timer!
     
     //Constructor
     override func viewDidLoad() {
@@ -67,8 +68,14 @@ class createTimerController: UIViewController, UIPickerViewDataSource, UIPickerV
     func textFieldDidEndEditing(_ textField: UITextField) {
     }
     
+    //MARK: Timer
     
-    //Mark: Actions
+    func calculateCountdown(){
+        
+    }
+    
+    
+    //MARK: Actions
     
     //Allows the user to choose the type of timer they want to make date/time or countdown
     @IBAction func timerChoice(_ sender: UISegmentedControl) {
@@ -91,10 +98,21 @@ class createTimerController: UIViewController, UIPickerViewDataSource, UIPickerV
     @IBAction func doneButtonPressed(_ sender: UIBarButtonItem) {
         //TODO: Create the timer possibly NSTimer and then create a tableView item to display the timer within the second view controller
         
+        if(dateView.isHidden){
+            let countDownPicker: UIDatePicker = countdownView.viewWithTag(1) as! UIDatePicker
+            let time = countDownPicker.countDownDuration
+            timer = Timer.scheduledTimer(TimeInterval: 1.0, target: self, selector: #selector(createTimerController.calculateCountdown), userInfo: nil, repeats: false)
+            
+            
+            var counter = 0
+        }else if(countdownView.isHidden){
+            
+        }
         
         
         
     }
+    
     @IBAction func cancelButtonPressed(_ sender: UIBarButtonItem) {
         //Goes back to previous viewController without saving any data
         self.dismiss(animated: true, completion: nil)
