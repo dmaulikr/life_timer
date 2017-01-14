@@ -21,8 +21,6 @@ class createTimerController: UIViewController, UIPickerViewDataSource, UIPickerV
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //TODO set the dateView and countdownViews to default values (today and current time)/(0 hours and 1 minute)
-        
         timerNameTextField.delegate = self
         
         //Default look of the create a timer page 

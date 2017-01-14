@@ -23,8 +23,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1e8-VG-B5H">
-                                <rect key="frame" x="16" y="40" width="343" height="477"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1e8-VG-B5H">
+                                <rect key="frame" x="16" y="40" width="343" height="476.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFs-eo-Wtl">
                                         <rect key="frame" x="0.0" y="0.0" width="91" height="20.5"/>
@@ -172,7 +172,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Timers" id="fN6-0h-goo"/>
+                    <tabBarItem key="tabBarItem" title="Timers" image="second" selectedImage="second" id="fN6-0h-goo"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XOq-Ey-NNg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -198,8 +198,7 @@
                                     <navigationItem title="Life Timer" id="OYt-ff-aCm">
                                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="SB6-e8-CAh">
                                             <connections>
-                                                <action selector="cancelButtonPressed:" destination="0uX-pq-9ID" id="uAe-xu-jH6"/>
-                                                <segue destination="nuK-kY-4EX" kind="show" id="FMz-HP-8kj"/>
+                                                <segue destination="49e-Tb-3d3" kind="show" id="Lt1-Jv-U7q"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="ick-bZ-kNV">
@@ -210,23 +209,16 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lB2-un-Nbu">
-                                <rect key="frame" x="16" y="93" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gd1-hD-dDw">
                                 <rect key="frame" x="16" y="71" width="54" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Sks-qe-PK9">
                                 <rect key="frame" x="16" y="137" width="343" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Date and Time"/>
                                     <segment title="Countdown"/>
@@ -253,6 +245,13 @@
                                 <rect key="frame" x="16" y="402" width="343" height="216"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lB2-un-Nbu">
+                                <rect key="frame" x="16" y="93" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -278,18 +277,18 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="nuK-kY-4EX" kind="relationship" relationship="viewControllers" id="r3v-7V-yfB"/>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--View Controller-->
+        <!--Date Picker-->
         <scene sceneID="2Aw-GB-qFf">
             <objects>
-                <viewController id="nWZ-1d-QJ2" sceneMemberID="viewController">
+                <viewController id="nWZ-1d-QJ2" customClass="datePicker" customModule="Life_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HRQ-hC-pfY"/>
                         <viewControllerLayoutGuide type="bottom" id="DFV-cx-PXW"/>
@@ -304,10 +303,16 @@
                                 <date key="date" timeIntervalSinceReferenceDate="504823144.90315998">
                                     <!--2016-12-30 20:39:04 +0000-->
                                 </date>
+                                <date key="minimumDate" timeIntervalSinceReferenceDate="-978267600">
+                                    <!--1970-01-01 11:00:00 +0000-->
+                                </date>
                             </datePicker>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="dateView" destination="PPB-Hv-D9L" id="Won-yn-kF0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cBU-Bd-9Ag" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -344,8 +349,6 @@
     <resources>
         <image name="defaultPhoto" width="320" height="320"/>
         <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="FMz-HP-8kj"/>
-    </inferredMetricsTieBreakers>
 </document>

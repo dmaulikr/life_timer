@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885398E11E29FC0F002C2FD6 /* datePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885398E01E29FC0F002C2FD6 /* datePicker.swift */; };
 		886268F71E04B16200D0745D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886268F61E04B16200D0745D /* AppDelegate.swift */; };
 		886268F91E04B16200D0745D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886268F81E04B16200D0745D /* FirstViewController.swift */; };
 		886268FB1E04B16200D0745D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886268FA1E04B16200D0745D /* SecondViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		885398E01E29FC0F002C2FD6 /* datePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = datePicker.swift; sourceTree = "<group>"; };
 		886268F31E04B16200D0745D /* Life Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		886268F61E04B16200D0745D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		886268F81E04B16200D0745D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				88B6F2D01E16C02900A5EC91 /* dateTime.swift */,
 				886268FC1E04B16200D0745D /* Main.storyboard */,
 				88B6F2D41E16FDAC00A5EC91 /* createTimerController.swift */,
+				885398E01E29FC0F002C2FD6 /* datePicker.swift */,
 				886268FF1E04B16200D0745D /* Assets.xcassets */,
 				886269011E04B16200D0745D /* LaunchScreen.storyboard */,
 				886269041E04B16200D0745D /* Info.plist */,
@@ -211,6 +214,7 @@
 				TargetAttributes = {
 					886268F21E04B16200D0745D = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = VDVLWYB37E;
 						ProvisioningStyle = Automatic;
 					};
 					886269081E04B16200D0745D = {
@@ -282,6 +286,7 @@
 				88B6F2D11E16C02900A5EC91 /* dateTime.swift in Sources */,
 				88B6F2CD1E134B6100A5EC91 /* RatingControl.swift in Sources */,
 				886268FB1E04B16200D0745D /* SecondViewController.swift in Sources */,
+				885398E11E29FC0F002C2FD6 /* datePicker.swift in Sources */,
 				886268F71E04B16200D0745D /* AppDelegate.swift in Sources */,
 				88B6F2CF1E16BDA300A5EC91 /* Timer.swift in Sources */,
 				886268F91E04B16200D0745D /* FirstViewController.swift in Sources */,
@@ -436,7 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = VDVLWYB37E;
 				INFOPLIST_FILE = "Life Timer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -451,7 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = VDVLWYB37E;
 				INFOPLIST_FILE = "Life Timer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
