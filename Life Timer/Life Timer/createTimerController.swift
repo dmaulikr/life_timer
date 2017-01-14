@@ -19,6 +19,8 @@ class createTimerController: UIViewController, UIPickerViewDataSource, UIPickerV
     var timer: Timer!
     var counter = 0
     var time: Int = 0
+    private var datePickerEmbedded: datePickerController!
+    private var countdownPickerEmbedded: countdownPickerController!
     
     //Constructor
     override func viewDidLoad() {
@@ -42,7 +44,7 @@ class createTimerController: UIViewController, UIPickerViewDataSource, UIPickerV
     }
     
     //MARK: UIPickerViewDelegate
-    
+
     //Allows the pickerView populate the components with the correct names
     func pickerView(_ UIPickerView: UIPickerView, titleForRow: Int, forComponent: Int) -> String?{
         return colorPickerData[titleForRow]
@@ -72,13 +74,32 @@ class createTimerController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     //MARK: Timer
     
-    func calculateCountdown(){
-        for _ in (0...time){
-            counter += 1
-            print(counter)
+    //Allows us to gain a reference to the UIDatePickers in the embedded UIViews
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination as? datePickerController, segue.identifier == "datePickerSegue"{
+            self.datePickerEmbedded = vc
+        }else if let vc = segue.destination as? countdownPickerController, segue.identifier == "countdownPickerSegue"{
+            self.countdownPickerEmbedded = vc
         }
     }
     
+    //Calculates the countdown for the timer (selector for the timer)
+    func calculateCountdown(){
+            counter += 1
+            print(counter)
+        if counter == time{
+            timer.invalidate()
+        }
+    }
+    
+    //Calculate the number of seconds needed for the when the user picks a date and time to count toward
+    func calculateDate(){
+        let date = datePickerEmbedded.dateView.date;
+        let currentDate = Date()
+        let difference = date .timeIntervalSince(currentDate)
+        time = Int(difference)
+        print(time)
+    }
     
     //MARK: Actions
     
@@ -101,21 +122,68 @@ class createTimerController: UIViewController, UIPickerViewDataSource, UIPickerV
     }
     
     @IBAction func doneButtonPressed(_ sender: UIBarButtonItem) {
-        //TODO: Create the timer possibly NSTimer and then create a tableView item to display the timer within the second view controller
+        //TODO check if all parameters are met ie the name time and color selected
         if(dateView.isHidden){
-            let countDownPicker: UIDatePicker = countdownView.viewWithTag(1) as! UIDatePicker
-            time = Int(countDownPicker.countDownDuration)
-            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(createTimerController.calculateCountdown), userInfo: nil, repeats: false)
+            time = Int(countdownPickerEmbedded.countDownPicker.countDownDuration)
+            print(time)
+            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(createTimerController.calculateCountdown), userInfo: nil, repeats: true)
         }else if(countdownView.isHidden){
-            
+            calculateDate()
+            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(createTimerController.calculateCountdown), userInfo:nil, repeats: true)
         }
+        self.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func cancelButtonPressed(_ sender: UIBarButtonItem) {
         //Goes back to previous viewController without saving any data
         self.dismiss(animated: true, completion: nil)
     }
+}
 
+
+//MARK Custom date picker view controller
+class datePickerController: UIViewController{
+    
+    @IBOutlet weak var dateView: UIDatePicker!
+    
+    let secondsInADay: Double = 86400.00
+    
+    //Contstructor
+    override func viewDidLoad(){
+        super.viewDidLoad()
+        setDefault()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        setDefault()
+    }
+    
+    func setDefault(){
+        dateView.setDate(Date().addingTimeInterval(secondsInADay), animated: true)
+        //Should set the minimum date for the date picker to tomorrow at the same time
+        dateView.minimumDate = Date().addingTimeInterval(secondsInADay)
+    }
+}
+
+//MARK: Custom count down controller
+class countdownPickerController: UIViewController{
+    
+    @IBOutlet weak var countDownPicker: UIDatePicker!
+    
+    //Constructor
+    override func viewDidLoad(){
+        super.viewDidLoad()
+        setDefault()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        setDefault()
+    }
+    
+    func setDefault(){
+        //Should set the starting countdown time to 1 minute
+        countDownPicker.countDownDuration = 1;
+    }
     
     
 }
