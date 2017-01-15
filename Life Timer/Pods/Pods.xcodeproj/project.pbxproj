@@ -7,31 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38696FFB0BA43556AA4096F7A864808D /* Pods-Life Timer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6493F5614920C4C5AEAA8D00D24B6D5F /* Pods-Life Timer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4B810FB9CEB7081D5E386763E2C3AA05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B272ECBC5206EB79C715670F53E3F18 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FB13CAACE54BB5F01EDA0BE57A1A7D9 /* Pods-Life TimerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B22DDD583E2DB3A1E93ACCCE4EF63BE9 /* Pods-Life TimerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FC86946788174E60E1CAFBBE4BD404B /* Pods-Life TimerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11868693B674C7E8D17DD9E3B2CDC3BE /* Pods-Life TimerUITests-dummy.m */; };
-		6095D97AC903EBF017B4168B182096B1 /* Pods-Life Timer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863677F44E5BC1BB25D9F1452C98DFC /* Pods-Life Timer-dummy.m */; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39252B2E689B2B61AFE2AF50651B130C /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEA290EFC58EFEBEEC76602D68262099 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		C356A8C57B6FE90D44CAC406D9C3D835 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		C4C7DD97463785EF31F2DFC52DE03335 /* Pods-Life TimerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D87B6B3BA0F63B13B014637BEFB63C /* Pods-Life TimerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7DF649031C5A059A750FADA22B413D9 /* Pods-Life Timer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863677F44E5BC1BB25D9F1452C98DFC /* Pods-Life Timer-dummy.m */; };
 		CC0F121D242EF5D373D8C57B4B179DBD /* Pods-Life TimerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0334134B4E3D340AC8F090DCD98D73A /* Pods-Life TimerTests-dummy.m */; };
-		CC71D75CD35A1B00014908DDD3BB2F9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D49FCFB1469996E9BF2795DC070ACD /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2AB57EE0C8E500471AA995C3960AF12 /* Pods-Life Timer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6493F5614920C4C5AEAA8D00D24B6D5F /* Pods-Life Timer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = F4BA6DF1FE29A0E9BEA1803603149102 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 410D9B4178C76FA5EDF8160F6514C971 /* GoogleToolboxForMac-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DFFBF6786E0F169668F966A994F43C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		00D1CDDF771120776FDC8D96EA542EE6 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
 		0D95918DC9AFE88D6344438DB692D9A4 /* Pods-Life Timer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Life Timer-frameworks.sh"; sourceTree = "<group>"; };
 		0E11C4A7506777A5BD2B467032F704E7 /* Pods-Life Timer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Life Timer-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0E59BE57860D94B0FA3AE38468C32B43 /* Pods-Life Timer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life Timer-acknowledgements.plist"; sourceTree = "<group>"; };
 		11868693B674C7E8D17DD9E3B2CDC3BE /* Pods-Life TimerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Life TimerUITests-dummy.m"; sourceTree = "<group>"; };
 		1863677F44E5BC1BB25D9F1452C98DFC /* Pods-Life Timer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Life Timer-dummy.m"; sourceTree = "<group>"; };
+		25A132F1869837E9A760EEB488B5D44B /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		2849118E66F8FB23260AFEB06402A6D0 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
 		29D87B6B3BA0F63B13B014637BEFB63C /* Pods-Life TimerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Life TimerTests-umbrella.h"; sourceTree = "<group>"; };
 		2D9BA20CF36D4E36E738CA279ACAC4E4 /* Pods-Life TimerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life TimerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		39252B2E689B2B61AFE2AF50651B130C /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		3C11B24327DCA859F51CF1668C211D68 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		410D9B4178C76FA5EDF8160F6514C971 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
 		43CEC470FC553147FC1835A675F3E01F /* Pods-Life TimerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life TimerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4B74079521A535E7E6F3D6FD2F82CC54 /* Pods-Life TimerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Life TimerTests-resources.sh"; sourceTree = "<group>"; };
+		4D48B278ED3B1FAE2133F48FAC325F12 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		53A8732AF44157AD2CA30568D4DAC40D /* Pods_Life_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Life_Timer.framework; path = "Pods-Life Timer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B272ECBC5206EB79C715670F53E3F18 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		5C439A637F7ABAAAF15BA09CB16CDF69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6493F5614920C4C5AEAA8D00D24B6D5F /* Pods-Life Timer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Life Timer-umbrella.h"; sourceTree = "<group>"; };
+		69D49FCFB1469996E9BF2795DC070ACD /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
 		6DE56EBE771438D8B3543BC03298BBCE /* Pods-Life Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life Timer.debug.xcconfig"; sourceTree = "<group>"; };
-		6DF708ED18612418B5EDFA28710AB4B8 /* Pods_Life_TimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Life_TimerTests.framework; path = "Pods-Life TimerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E0093BAE35C9027AAAB5847DEA7F08 /* Pods-Life TimerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Life TimerTests.modulemap"; sourceTree = "<group>"; };
 		76236DF9C0016809107006E1B44AD2CB /* Pods-Life TimerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Life TimerUITests-frameworks.sh"; sourceTree = "<group>"; };
 		7BC4A591BEAF66BE634815E8F81AAD6C /* Pods-Life TimerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Life TimerTests-frameworks.sh"; sourceTree = "<group>"; };
@@ -40,36 +65,44 @@
 		87B3F76DC589E188FF71F6F723C54862 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A03E3A41C2A5B08EC24EDDFC2316C8F9 /* Pods-Life TimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life TimerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A1583721302A15E788BE79A7FC87CB4B /* Pods_Life_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Life_Timer.framework; path = "Pods-Life Timer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD58E4ACB89698A9C37A55EF8EC42DB9 /* Pods-Life TimerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Life TimerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B22DDD583E2DB3A1E93ACCCE4EF63BE9 /* Pods-Life TimerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Life TimerUITests-umbrella.h"; sourceTree = "<group>"; };
+		BBEF9555ABDC5D6ACB9DCB58763B04B4 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		C513DE6CEE1AAD23EFE32FEA6B6B6B9C /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		C88CEAD9913B6F15ACC765259A53796E /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7A757F6AAE1DA46680D7802B30857A4 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		D91606C437B9AE803833B8F44A5383CD /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
 		E0334134B4E3D340AC8F090DCD98D73A /* Pods-Life TimerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Life TimerTests-dummy.m"; sourceTree = "<group>"; };
 		E0A049DB0C6BD4E50B53E8F2C20E3E07 /* Pods-Life TimerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Life TimerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E1460C71535FF988B293EF6B865059CF /* Pods-Life Timer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Life Timer-resources.sh"; sourceTree = "<group>"; };
-		E447B34ABC86BF4A0F7818B43A3A7582 /* Pods_Life_TimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Life_TimerUITests.framework; path = "Pods-Life TimerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8569DC66AA509A0E32D243520D0F8D5 /* Pods-Life TimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life TimerTests.release.xcconfig"; sourceTree = "<group>"; };
 		E89F5995270073DB6AA4D4C01D9664CC /* Pods-Life TimerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Life TimerUITests-resources.sh"; sourceTree = "<group>"; };
+		EC2DF52F00B8A53A10BDBCDA60581C97 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03F0A819D26520745FBC7D41513493E /* Pods-Life TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0C8DE2F3AD532F9EA7A03E5D14F3E7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F34B5F868A474F1A67D3DF18C09D85F8 /* Pods-Life Timer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Life Timer.modulemap"; sourceTree = "<group>"; };
 		F416C75896BD943A537D7C7DDF3CAA77 /* Pods-Life Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life Timer.release.xcconfig"; sourceTree = "<group>"; };
+		F4BA6DF1FE29A0E9BEA1803603149102 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		F502AD273677A028DD8EB98AA598A9A2 /* Pods_Life_TimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Life_TimerTests.framework; path = "Pods-Life TimerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DFDD7BA2EBC029A16DCC11189AE539 /* Pods_Life_TimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Life_TimerUITests.framework; path = "Pods-Life TimerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF00B2CA8EC438E829F72E71DB196F9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2F94B75FD6DDF442EC8CC0BD862C1A4A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC71D75CD35A1B00014908DDD3BB2F9C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		76337488CF4D9D91F63682ED40A3AA9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C356A8C57B6FE90D44CAC406D9C3D835 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80186123117AC20A231D15B6A7260A12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B810FB9CEB7081D5E386763E2C3AA05 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +114,105 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12EAE32E2839BFBC415F7566CF95AFBB /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				3C11B24327DCA859F51CF1668C211D68 /* FIRInstanceID.h */,
+				181A71086EB9D9CA4B5AD46F1E275CDD /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		181A71086EB9D9CA4B5AD46F1E275CDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D48B278ED3B1FAE2133F48FAC325F12 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23FA9A582C978A551CD5E06C088ED3CF /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				93616DDBC4CE13C5363E8B47C61FAB3C /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		3442BDD8A045E6455DD06D9760C724A4 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				5B272ECBC5206EB79C715670F53E3F18 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		37043B45AC592BF4CDFAA402732833DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2DF52F00B8A53A10BDBCDA60581C97 /* GoogleToolboxForMac.framework */,
+				53A8732AF44157AD2CA30568D4DAC40D /* Pods_Life_Timer.framework */,
+				F502AD273677A028DD8EB98AA598A9A2 /* Pods_Life_TimerTests.framework */,
+				F9DFDD7BA2EBC029A16DCC11189AE539 /* Pods_Life_TimerUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B7E4499FCB4021B32AC811764CDB508 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				3442BDD8A045E6455DD06D9760C724A4 /* Defines */,
+				61CF4BAAE013DF8B0007735CDAD7C659 /* NSData+zlib */,
+				4CFEB72FCD954675E0BF88DE27251392 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		4CFEB72FCD954675E0BF88DE27251392 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A132F1869837E9A760EEB488B5D44B /* GoogleToolboxForMac.modulemap */,
+				00D1CDDF771120776FDC8D96EA542EE6 /* GoogleToolboxForMac.xcconfig */,
+				410D9B4178C76FA5EDF8160F6514C971 /* GoogleToolboxForMac-dummy.m */,
+				D7A757F6AAE1DA46680D7802B30857A4 /* GoogleToolboxForMac-prefix.pch */,
+				39252B2E689B2B61AFE2AF50651B130C /* GoogleToolboxForMac-umbrella.h */,
+				F0C8DE2F3AD532F9EA7A03E5D14F3E7D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		5852E0E12FD142FD5B46C5CD973C8C15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBEF9555ABDC5D6ACB9DCB58763B04B4 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61CF4BAAE013DF8B0007735CDAD7C659 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				69D49FCFB1469996E9BF2795DC070ACD /* GTMNSData+zlib.h */,
+				F4BA6DF1FE29A0E9BEA1803603149102 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
 		666BF0312E771F2F674694492B824267 /* Pods-Life Timer */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +231,23 @@
 			path = "Target Support Files/Pods-Life Timer";
 			sourceTree = "<group>";
 		};
+		6960BD0665A65D2B77A4EB34288B2D9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C88CEAD9913B6F15ACC765259A53796E /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		728F1DF19867C27C9AFBFBAB877C5075 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				BAC0B0732C703D4483E9E41179261975 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,24 +256,37 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		77294A3095DD86741E1692D62E33E1BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				728F1DF19867C27C9AFBFBAB877C5075 /* Firebase */,
+				E3A34E1D8982976A7CD926B0E2364D16 /* FirebaseAnalytics */,
+				23FA9A582C978A551CD5E06C088ED3CF /* FirebaseCore */,
+				12EAE32E2839BFBC415F7566CF95AFBB /* FirebaseInstanceID */,
+				CE09658FF71C2EDAEA4A95E0579F933C /* GoogleInterchangeUtilities */,
+				C3D8CF558B907F378D137FEBD6CC55C1 /* GoogleSymbolUtilities */,
+				3B7E4499FCB4021B32AC811764CDB508 /* GoogleToolboxForMac */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				93E3CF8A310FF1C943EA1EB5C29B5902 /* Products */,
+				77294A3095DD86741E1692D62E33E1BE /* Pods */,
+				37043B45AC592BF4CDFAA402732833DC /* Products */,
 				F59D59713476948E3CFB4B6A76705878 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		93E3CF8A310FF1C943EA1EB5C29B5902 /* Products */ = {
+		93616DDBC4CE13C5363E8B47C61FAB3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A1583721302A15E788BE79A7FC87CB4B /* Pods_Life_Timer.framework */,
-				6DF708ED18612418B5EDFA28710AB4B8 /* Pods_Life_TimerTests.framework */,
-				E447B34ABC86BF4A0F7818B43A3A7582 /* Pods_Life_TimerUITests.framework */,
+				D91606C437B9AE803833B8F44A5383CD /* FirebaseCore.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A06A7E351E5CF282B14DBEA989842396 /* Pods-Life TimerTests */ = {
@@ -166,12 +325,47 @@
 			path = "Target Support Files/Pods-Life TimerUITests";
 			sourceTree = "<group>";
 		};
+		BAC0B0732C703D4483E9E41179261975 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2849118E66F8FB23260AFEB06402A6D0 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3D8CF558B907F378D137FEBD6CC55C1 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				6960BD0665A65D2B77A4EB34288B2D9F /* Frameworks */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		CE09658FF71C2EDAEA4A95E0579F933C /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				5852E0E12FD142FD5B46C5CD973C8C15 /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		E3A34E1D8982976A7CD926B0E2364D16 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				F9B96C77E21B1A9EE878033087FA1BE7 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
 		F59D59713476948E3CFB4B6A76705878 /* Targets Support Files */ = {
@@ -182,6 +376,14 @@
 				A94101F28351F95C6981C767BB13FDF0 /* Pods-Life TimerUITests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F9B96C77E21B1A9EE878033087FA1BE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C513DE6CEE1AAD23EFE32FEA6B6B6B9C /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,11 +397,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0035737D97F403804C995C96D186F7C /* Headers */ = {
+		53C8C25408B2EAF7091C3AEE779D3652 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38696FFB0BA43556AA4096F7A864808D /* Pods-Life Timer-umbrella.h in Headers */,
+				E2AB57EE0C8E500471AA995C3960AF12 /* Pods-Life Timer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +413,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = EC2DF52F00B8A53A10BDBCDA60581C97 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		1BB14204B7062DA7541D9838EA634D58 /* Pods-Life TimerTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 861A4F53432CDB8D74DA5377C8AD1B5B /* Build configuration list for PBXNativeTarget "Pods-Life TimerTests" */;
@@ -228,24 +457,25 @@
 			);
 			name = "Pods-Life TimerTests";
 			productName = "Pods-Life TimerTests";
-			productReference = 6DF708ED18612418B5EDFA28710AB4B8 /* Pods_Life_TimerTests.framework */;
+			productReference = F502AD273677A028DD8EB98AA598A9A2 /* Pods_Life_TimerTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7F80D7BF700910D60319ECD2C715762D /* Pods-Life Timer */ = {
+		74894DB5039950B03E1D67C439BDF711 /* Pods-Life Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 631B8864E4BAC7238340DEBF63DE9064 /* Build configuration list for PBXNativeTarget "Pods-Life Timer" */;
+			buildConfigurationList = C0A09B844D023378576042AC61944E90 /* Build configuration list for PBXNativeTarget "Pods-Life Timer" */;
 			buildPhases = (
-				9830C204E81CC9C4AACEE8B43EC25ED8 /* Sources */,
-				2F94B75FD6DDF442EC8CC0BD862C1A4A /* Frameworks */,
-				D0035737D97F403804C995C96D186F7C /* Headers */,
+				C8C6C1715BB86F64AD787CBFB333A12F /* Sources */,
+				80186123117AC20A231D15B6A7260A12 /* Frameworks */,
+				53C8C25408B2EAF7091C3AEE779D3652 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DF9277B245EE60D42E13B45577242ED7 /* PBXTargetDependency */,
 			);
 			name = "Pods-Life Timer";
 			productName = "Pods-Life Timer";
-			productReference = A1583721302A15E788BE79A7FC87CB4B /* Pods_Life_Timer.framework */;
+			productReference = 53A8732AF44157AD2CA30568D4DAC40D /* Pods_Life_Timer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B659BF60487C90A2802F2812FEB684C6 /* Pods-Life TimerUITests */ = {
@@ -262,7 +492,7 @@
 			);
 			name = "Pods-Life TimerUITests";
 			productName = "Pods-Life TimerUITests";
-			productReference = E447B34ABC86BF4A0F7818B43A3A7582 /* Pods_Life_TimerUITests.framework */;
+			productReference = F9DFDD7BA2EBC029A16DCC11189AE539 /* Pods_Life_TimerUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -282,11 +512,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 93E3CF8A310FF1C943EA1EB5C29B5902 /* Products */;
+			productRefGroup = 37043B45AC592BF4CDFAA402732833DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F80D7BF700910D60319ECD2C715762D /* Pods-Life Timer */,
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				74894DB5039950B03E1D67C439BDF711 /* Pods-Life Timer */,
 				1BB14204B7062DA7541D9838EA634D58 /* Pods-Life TimerTests */,
 				B659BF60487C90A2802F2812FEB684C6 /* Pods-Life TimerUITests */,
 			);
@@ -294,11 +525,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9830C204E81CC9C4AACEE8B43EC25ED8 /* Sources */ = {
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6095D97AC903EBF017B4168B182096B1 /* Pods-Life Timer-dummy.m in Sources */,
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +539,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FC86946788174E60E1CAFBBE4BD404B /* Pods-Life TimerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C6C1715BB86F64AD787CBFB333A12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DF649031C5A059A750FADA22B413D9 /* Pods-Life Timer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +559,15 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF9277B245EE60D42E13B45577242ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = DFFBF6786E0F169668F966A994F43C65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
@@ -400,6 +649,76 @@
 			};
 			name = Debug;
 		};
+		803301B91986A0673BB66B09294AE7E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F416C75896BD943A537D7C7DDF3CAA77 /* Pods-Life Timer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Life Timer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Life Timer/Pods-Life Timer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Life_Timer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		868590631329E8424DFFAEE093296407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE56EBE771438D8B3543BC03298BBCE /* Pods-Life Timer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Life Timer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Life Timer/Pods-Life Timer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Life_Timer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9BB54ADFD78ACEB76124B1B9F27CE78D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A03E3A41C2A5B08EC24EDDFC2316C8F9 /* Pods-Life TimerTests.debug.xcconfig */;
@@ -470,9 +789,9 @@
 			};
 			name = Release;
 		};
-		B7B06620AC002D8E6A7957B52F60E77F /* Debug */ = {
+		D60CD877A708870E2BE96B83BA32F883 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DE56EBE771438D8B3543BC03298BBCE /* Pods-Life Timer.debug.xcconfig */;
+			baseConfigurationReference = 00D1CDDF771120776FDC8D96EA542EE6 /* GoogleToolboxForMac.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -485,20 +804,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Life Timer/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Life Timer/Pods-Life Timer.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Life_Timer;
+				PRODUCT_NAME = GoogleToolboxForMac;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -580,9 +896,9 @@
 			};
 			name = Release;
 		};
-		F114B6D8911DCA11F653AAC2EED72881 /* Release */ = {
+		F066921CBDBDB5F45795E50FBC5AC972 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F416C75896BD943A537D7C7DDF3CAA77 /* Pods-Life Timer.release.xcconfig */;
+			baseConfigurationReference = 00D1CDDF771120776FDC8D96EA542EE6 /* GoogleToolboxForMac.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -595,20 +911,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Life Timer/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Life Timer/Pods-Life Timer.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Life_Timer;
+				PRODUCT_NAME = GoogleToolboxForMac;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -627,20 +940,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		631B8864E4BAC7238340DEBF63DE9064 /* Build configuration list for PBXNativeTarget "Pods-Life Timer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B7B06620AC002D8E6A7957B52F60E77F /* Debug */,
-				F114B6D8911DCA11F653AAC2EED72881 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		861A4F53432CDB8D74DA5377C8AD1B5B /* Build configuration list for PBXNativeTarget "Pods-Life TimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BB54ADFD78ACEB76124B1B9F27CE78D /* Debug */,
 				DE63935273D9E5CE929527F0952892BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A09B844D023378576042AC61944E90 /* Build configuration list for PBXNativeTarget "Pods-Life Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868590631329E8424DFFAEE093296407 /* Debug */,
+				803301B91986A0673BB66B09294AE7E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60CD877A708870E2BE96B83BA32F883 /* Debug */,
+				F066921CBDBDB5F45795E50FBC5AC972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

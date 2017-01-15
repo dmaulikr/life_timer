@@ -632,6 +632,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B2AD9A5EE023E94CE989CA4 /* Pods-Life Timer.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VDVLWYB37E;
 				INFOPLIST_FILE = "Life Timer/Info.plist";
@@ -648,6 +649,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 773A4401058312BDE26CB510 /* Pods-Life Timer.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VDVLWYB37E;
 				INFOPLIST_FILE = "Life Timer/Info.plist";
