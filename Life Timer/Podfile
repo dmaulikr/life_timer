@@ -7,6 +7,8 @@ target 'Life Timer' do
 
   # Pods for Life Timer
 
+  pod 'Firebase/Core'
+
   target 'Life TimerTests' do
     inherit! :search_paths
     # Pods for testing
