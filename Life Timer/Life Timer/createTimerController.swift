@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 class createTimerController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate{
     
@@ -136,6 +137,21 @@ class createTimerController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     @IBAction func cancelButtonPressed(_ sender: UIBarButtonItem) {
         //Goes back to previous viewController without saving any data
+        
+        let content = UNMutableNotificationContent()
+        content.title = NSString.localizedUserNotificationString(forKey: "Hello!", arguments: nil)
+        content.body = NSString.localizedUserNotificationString(forKey: "Hello_message_body", arguments: nil)
+        content.sound = UNNotificationSound.default()
+        
+        // Deliver the notification in five seconds.
+        let trigger = UNTimeIntervalNotificationTrigger.init(timeInterval: 5, repeats: false)
+        let request = UNNotificationRequest.init(identifier: "notification_sample_2", content: content, trigger: trigger)
+        
+        // Schedule the notification.
+        let center = UNUserNotificationCenter.current()
+        center.add(request)
+        
+        
         self.dismiss(animated: true, completion: nil)
     }
 }

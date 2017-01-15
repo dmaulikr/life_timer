@@ -23,8 +23,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1e8-VG-B5H">
-                                <rect key="frame" x="20" y="40" width="374" height="476.33333333333337"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1e8-VG-B5H">
+                                <rect key="frame" x="20" y="40" width="374" height="482"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timer name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFs-eo-Wtl">
                                         <rect key="frame" x="0.0" y="0.0" width="90.666666666666671" height="20.333333333333336"/>
@@ -55,8 +55,8 @@
                                             <outletCollection property="gestureRecognizers" destination="vv9-yK-wTf" appends="YES" id="GxA-AG-KeH"/>
                                         </connections>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GlZ-J0-Q4s" customClass="RatingControl" customModule="Life_Timer" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="432.33333333333337" width="252" height="44.000000000000057"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GlZ-J0-Q4s" customClass="RatingControl" customModule="Life_Timer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="432.33333333333337" width="252" height="50.000000000000057"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="size" keyPath="starSize">
                                                 <size key="value" width="44" height="44"/>
