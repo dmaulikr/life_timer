@@ -8,12 +8,13 @@
 
 import UIKit
 import UserNotifications
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow? //Reference to the app's window, the root of the app's view heiarchy
-
+    
     
     
    /*
@@ -29,6 +30,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
 
+        FIRApp.configure()
+        
+        
         return true
     }
 
