@@ -96,6 +96,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate{
         //Authenticate the user into Firebase
         FIRAuth.auth()?.signIn(with: credential){ (user, error) in
             print("User signed into firebase!")
+            
             //if let error = error {
                 // ...
               //  return
@@ -104,7 +105,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate{
     }
     
    
-    //Signs the user out 
+    //Signs the user out of FireBase
     func sign(_ signIn: GIDSignIn!, didDisconnectWith user:GIDGoogleUser!,
                 withError error: Error!) {
         let firebaseAuth = FIRAuth.auth()
