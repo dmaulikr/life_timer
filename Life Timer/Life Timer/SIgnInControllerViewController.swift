@@ -12,14 +12,16 @@ import GoogleSignIn
 import FirebaseGoogleAuthUI
 
 class SIgnInControllerViewController: UIViewController, GIDSignInUIDelegate{
+    
+    //MARK: Properties
+    @IBOutlet weak var signOutButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //Shows the Google sign in button
         GIDSignIn.sharedInstance().uiDelegate = self
-        
-        
-        //TODO(developer) customize look and feel of button
+    
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,6 +38,11 @@ class SIgnInControllerViewController: UIViewController, GIDSignInUIDelegate{
             print("\(error.localizedDescription)")
         }
     }
+    
+    @IBAction func signOut(_ sender: UIButton) {
+        GIDSignIn.sharedInstance().signOut()
+    }
+    
 
 
 }

@@ -31,9 +31,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate{
             }
         }
 
+        //Use firebase library to configure APIs
         FIRApp.configure()
+        
+        //Google sign in set up
         GIDSignIn.sharedInstance().clientID = FIRApp.defaultApp()?.options.clientID
         GIDSignIn.sharedInstance().delegate = self
+        
+        var ref: FIRDatabaseReference!
+        
+        ref = FIRDatabase.database().reference()
         
         return true
     }
@@ -70,6 +77,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate{
         // ...
         if error != nil {
             if (error == nil) {
+                
                 // Perform any operations on signed in user here.
                 //let userId = user.userID                  // For client-side use only!
                 //let idToken = user.authentication.idToken // Safe to send to the server
@@ -84,13 +92,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate{
         
         guard let authentication = user.authentication else { return }
         let credential = FIRGoogleAuthProvider.credential(withIDToken: authentication.idToken, accessToken: authentication.accessToken)
-        print(credential) //TODO remove this line
+        
+        //Authenticate the user into Firebase
+        FIRAuth.auth()?.signIn(with: credential){ (user, error) in
+            print("User signed into firebase!")
+            //if let error = error {
+                // ...
+              //  return
+            //}
+        }
     }
     
+   
+    //Signs the user out 
     func sign(_ signIn: GIDSignIn!, didDisconnectWith user:GIDGoogleUser!,
                 withError error: Error!) {
-        // Perform any operations when the user disconnects from app here.
-        // ...
+        let firebaseAuth = FIRAuth.auth()
+        do {
+            try firebaseAuth?.signOut()
+        } catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+        
+        print("User signed out")
     }
 
 }
