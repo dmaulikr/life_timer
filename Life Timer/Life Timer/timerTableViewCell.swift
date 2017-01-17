@@ -10,6 +10,11 @@ import UIKit
 
 class timerTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var percentageLabel: UILabel!
+    @IBOutlet weak var timerNameLabel: UILabel!
+    @IBOutlet weak var dateAndTimeLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

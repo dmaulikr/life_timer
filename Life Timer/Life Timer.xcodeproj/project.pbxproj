@@ -10,7 +10,7 @@
 		065384C041E8F10EDD359D90 /* Pods_Life_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21484BD5F040F92BE9013B9 /* Pods_Life_Timer.framework */; };
 		0D8344FED62E2963D632DA5F /* Pods_Life_TimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30FEA1285FD20AC8B7E3F239 /* Pods_Life_TimerUITests.framework */; };
 		139EF974E39690EAC0B92544 /* Pods_Life_TimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C72CAE662D4578B022EB2B /* Pods_Life_TimerTests.framework */; };
-		880D8D0E1E2D8AF5007CC4BB /* timerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D8D0D1E2D8AF5007CC4BB /* timerTableViewCell.swift */; };
+		880D8D101E2DD21F007CC4BB /* timerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D8D0F1E2DD21F007CC4BB /* timerTableViewCell.swift */; };
 		885398E51E2B030C002C2FD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 885398E41E2B030C002C2FD6 /* GoogleService-Info.plist */; };
 		885398E61E2B030C002C2FD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 885398E41E2B030C002C2FD6 /* GoogleService-Info.plist */; };
 		885398E71E2B030C002C2FD6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 885398E41E2B030C002C2FD6 /* GoogleService-Info.plist */; };
@@ -51,7 +51,7 @@
 		6B2AD9A5EE023E94CE989CA4 /* Pods-Life Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life Timer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Life Timer/Pods-Life Timer.debug.xcconfig"; sourceTree = "<group>"; };
 		773A4401058312BDE26CB510 /* Pods-Life Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life Timer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Life Timer/Pods-Life Timer.release.xcconfig"; sourceTree = "<group>"; };
 		846CB9B1535A10FF13BAF335 /* Pods-Life TimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life TimerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Life TimerUITests/Pods-Life TimerUITests.release.xcconfig"; sourceTree = "<group>"; };
-		880D8D0D1E2D8AF5007CC4BB /* timerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timerTableViewCell.swift; sourceTree = "<group>"; };
+		880D8D0F1E2DD21F007CC4BB /* timerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timerTableViewCell.swift; sourceTree = "<group>"; };
 		885398E41E2B030C002C2FD6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		886268F31E04B16200D0745D /* Life Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		886268F61E04B16200D0745D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 				886268FF1E04B16200D0745D /* Assets.xcassets */,
 				886269011E04B16200D0745D /* LaunchScreen.storyboard */,
 				886269041E04B16200D0745D /* Info.plist */,
-				880D8D0D1E2D8AF5007CC4BB /* timerTableViewCell.swift */,
+				880D8D0F1E2DD21F007CC4BB /* timerTableViewCell.swift */,
 			);
 			path = "Life Timer";
 			sourceTree = "<group>";
@@ -482,7 +482,7 @@
 				886268F91E04B16200D0745D /* FirstViewController.swift in Sources */,
 				88B6F2D31E16C24900A5EC91 /* timerColor.swift in Sources */,
 				88B6F2D51E16FDAC00A5EC91 /* createTimerController.swift in Sources */,
-				880D8D0E1E2D8AF5007CC4BB /* timerTableViewCell.swift in Sources */,
+				880D8D101E2DD21F007CC4BB /* timerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

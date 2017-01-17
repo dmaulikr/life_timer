@@ -97,6 +97,11 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="dateAndTimeLabel" destination="ftF-mG-urZ" id="jXC-dM-Nvz"/>
+                                            <outlet property="percentageLabel" destination="LHE-z3-Cug" id="Yp9-0j-EBq"/>
+                                            <outlet property="timerNameLabel" destination="e6p-Ls-FID" id="tfE-gJ-uxx"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -105,6 +110,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Timers" image="second" selectedImage="second" id="fN6-0h-goo"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="5Eu-nd-mFM" id="IuR-At-sR5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XOq-Ey-NNg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
