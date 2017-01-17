@@ -1,14 +1,14 @@
 //
-//  timerViewCellTableViewCell.swift
+//  timerTableViewCell.swift
 //  Life Timer
 //
-//  Created by Kyle Van Landingham on 1/14/17.
+//  Created by Kyle Van Landingham on 1/16/17.
 //  Copyright © 2017 kvanland. All rights reserved.
 //
 
 import UIKit
 
-class timerViewCellTableViewCell: UITableViewCell {
+class timerTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

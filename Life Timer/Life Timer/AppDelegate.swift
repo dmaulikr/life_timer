@@ -73,6 +73,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate{
             return GIDSignIn.sharedInstance().handle(url,sourceApplication:options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String, annotation: [:])
     }
     
+    //MARK: Google Sign In
+    
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error?) {
         // ...
         if error != nil {
@@ -95,19 +97,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate{
         
         //Authenticate the user into Firebase
         FIRAuth.auth()?.signIn(with: credential){ (user, error) in
-            print("User signed into firebase!")
             
-            //if let error = error {
+            if error != nil {
                 // ...
-              //  return
-            //}
+                return
+            }
         }
     }
     
    
     //Signs the user out of FireBase
-    func sign(_ signIn: GIDSignIn!, didDisconnectWith user:GIDGoogleUser!,
-                withError error: Error!) {
+    func sign(_ signIn: GIDSignIn!, didDisconnectWith user:GIDGoogleUser!, withError error: Error!) {
+        
         let firebaseAuth = FIRAuth.auth()
         do {
             try firebaseAuth?.signOut()

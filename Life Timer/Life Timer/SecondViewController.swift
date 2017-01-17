@@ -7,15 +7,18 @@
 //
 
 import UIKit
+import GoogleSignIn
 
-class SecondViewController: UIViewController {
+class SecondViewController: UIViewController, GIDSignInUIDelegate{
 
     //MARK: Properties
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //Sets up the google delegate
+        GIDSignIn.sharedInstance().uiDelegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,5 +34,12 @@ class SecondViewController: UIViewController {
         
     }
     
+    @IBAction func signOut(_ sender: UIBarButtonItem) {
+        
+        GIDSignIn.sharedInstance().signOut()
+        let vc: AnyObject! = storyboard?.instantiateViewController(withIdentifier: "loginController")
+        present(vc as! SIgnInControllerViewController, animated: true, completion: nil)
+        
+    }
     
 }
